@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Quiz</h1>
+
+        <!-- Quiz Form (Visible Initially) -->
+        <div id="quizFormContainer">
+            <form id="quizForm">
+                <label for="classLevel">Class:</label>
+                <select id="classLevel" required></select>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" required></select>
+
+                <label for="chapter">Chapter:</label>
+                <select id="chapter" required></select>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" required></select>
+
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" required>
+                    <option value="">Select Difficulty</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+
+                <label for="numQuestions">Number of Questions:</label>
+                <select id="numQuestions" required>
+                    <option value="">Select Number of Questions</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                
+                <button type="submit" id="startQuizBtn">Start Quiz</button>
+            </form>
+        </div>
+
+        
+        <div id="quizContainer" class="hidden">
+            <h2 id="quizTimer">⏳Time Left: 00:00</h2>
+
+            <div class="quiz-layout">
+                
+                <div class="navigation-container">
+                    <h3>Questions</h3>
+                    <div id="questionNav"></div>
+                </div>
+
+                
+                <div class="quiz-content">
+                    <h3 id="questionDisplay"></h3>
+                    <div id="optionsContainer"></div>
+
+                    <div class="nav-buttons">
+                        <button id="prevBtn" class="hidden">Previous</button>
+                        <button id="nextBtn">Next</button>
+                        <button id="submitQuizBtn" class="hidden">Submit Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="resultContainer" class="hidden"></div>
+    </div>
+<script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-app.js";
+        import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-database.js";
+
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDlKHYnMTKd0Ve52Jhqlp1zyjzigLsuRaI",
+            authDomain: "gemini-quiz-61a3f.firebaseapp.com",
+            databaseURL: "https://gemini-quiz-61a3f-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "gemini-quiz-61a3f",
+            storageBucket: "gemini-quiz-61a3f.appspot.com",
+            messagingSenderId: "327131411339",
+            appId: "1:327131411339:web:fbb796df5cd3bfa39b758e",
+            measurementId: "G-J3J8ZC9B8M"
+        };
+
+        
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+
+        
+        async function loadDropdowns() {
+            try {
+                const classDropdown = document.getElementById("classLevel");
+                const subjectDropdown = document.getElementById("subject");
+                const chapterDropdown = document.getElementById("chapter");
+                const topicDropdown = document.getElementById("topic");
+
+                classDropdown.innerHTML = `<option value="">Loading...</option>`;
+                subjectDropdown.innerHTML = `<option value="">Select a Class first</option>`;
+                chapterDropdown.innerHTML = `<option value="">Select a Subject first</option>`;
+                topicDropdown.innerHTML = `<option value="">Select a Chapter first</option>`;
+
+                const classesRef = ref(database, "classes");
+                const snapshot = await get(classesRef);
+
+                if (snapshot.exists()) {
+                    classDropdown.innerHTML = `<option value="">Select Class</option>`;
+                    const classes = snapshot.val();
+                    Object.keys(classes).forEach(classKey => {
+                        const option = document.createElement("option");
+                        option.value = classKey;
+                        option.textContent = classKey;
+                        classDropdown.appendChild(option);
+                    });
+
+                    classDropdown.addEventListener("change", function () {
+                        loadSubjects(this.value);
+                    });
+                } else {
+                    classDropdown.innerHTML = `<option value="">No classes available</option>`;
+                }
+            } catch (error) {
+                console.error("Error fetching classes:", error);
+            }
+        }
+
+        async function loadSubjects(selectedClass) {
+            if (!selectedClass) return;
+            try {
+                const subjectDropdown = document.getElementById("subject");
+                const chapterDropdown = document.getElementById("chapter");
+                const topicDropdown = document.getElementById("topic");
+
+                subjectDropdown.innerHTML = `<option value="">Loading...</option>`;
+                chapterDropdown.innerHTML = `<option value="">Select a Subject first</option>`;
+                topicDropdown.innerHTML = `<option value="">Select a Chapter first</option>`;
+
+                const subjectsRef = ref(database, `classes/${selectedClass}/subjects`);
+                const snapshot = await get(subjectsRef);
+
+                if (snapshot.exists()) {
+                    subjectDropdown.innerHTML = `<option value="">Select Subject</option>`;
+                    Object.keys(snapshot.val()).forEach(subjectKey => {
+                        const option = document.createElement("option");
+                        option.value = subjectKey;
+                        option.textContent = subjectKey;
+                        subjectDropdown.appendChild(option);
+                    });
+
+                    subjectDropdown.addEventListener("change", function () {
+                        loadChapters(selectedClass, this.value);
+                    });
+                }
+            } catch (error) {
+                console.error("Error fetching subjects:", error);
+            }
+        }
+
+        async function loadChapters(selectedClass, selectedSubject) {
+            if (!selectedSubject) return;
+            try {
+                const chapterDropdown = document.getElementById("chapter");
+                const topicDropdown = document.getElementById("topic");
+
+                chapterDropdown.innerHTML = `<option value="">Loading...</option>`;
+                topicDropdown.innerHTML = `<option value="">Select a Chapter first</option>`;
+
+                const chaptersRef = ref(database, `classes/${selectedClass}/subjects/${selectedSubject}/chapters`);
+                const snapshot = await get(chaptersRef);
+
+                if (snapshot.exists()) {
+                    chapterDropdown.innerHTML = `<option value="">Select Chapter</option>`;
+                    Object.keys(snapshot.val()).forEach(chapterKey => {
+                        const option = document.createElement("option");
+                        option.value = chapterKey;
+                        option.textContent = chapterKey;
+                        chapterDropdown.appendChild(option);
+                    });
+
+                    chapterDropdown.addEventListener("change", function () {
+                        loadTopics(selectedClass, selectedSubject, this.value);
+                    });
+                }
+            } catch (error) {
+                console.error("Error fetching chapters:", error);
+            }
+        }
+
+        async function loadTopics(selectedClass, selectedSubject, selectedChapter) {
+            if (!selectedChapter) return;
+            try {
+                const topicDropdown = document.getElementById("topic");
+
+                topicDropdown.innerHTML = `<option value="">Loading...</option>`;
+
+                const topicsRef = ref(database, `classes/${selectedClass}/subjects/${selectedSubject}/chapters/${selectedChapter}/topics`);
+                const snapshot = await get(topicsRef);
+
+                if (snapshot.exists()) {
+                    topicDropdown.innerHTML = `<option value="">Select Topic</option>`;
+                    const topics = snapshot.val();
+                    
+
+                    if (Array.isArray(topics)) {
+                        topics.forEach(topic => {
+                            const option = document.createElement("option");
+                            option.value = topic;
+                            option.textContent = topic;
+                            topicDropdown.appendChild(option);
+                        });
+                    } else {
+                        Object.values(topics).forEach(topic => {
+                            const option = document.createElement("option");
+                            option.value = topic;
+                            option.textContent = topic;
+                            topicDropdown.appendChild(option);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error("Error fetching topics:", error);
+            }
+        }
+
+        
+        loadDropdowns();
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

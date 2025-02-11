@@ -1,0 +1,160 @@
+{
+  "classes": {
+    "6th": {
+      "subjects": {
+        "Mathematics": {
+          "chapters": {
+            "Integers": {
+              "topics": [
+                "Addition and Subtraction of Integers",
+                "Multiplication and Division of Integers"
+              ]
+            },
+            "Fractions": {
+              "topics": [
+                "Types of Fractions",
+                "Operations on Fractions"
+              ]
+            }
+          }
+        },
+        "Science": {
+          "chapters": {
+            "Living Organisms": {
+              "topics": [
+                "Characteristics of Living Beings",
+                "Classification of Living Organisms"
+              ]
+            },
+            "Electricity and Circuits": {
+              "topics": [
+                "Electric Cells and Their Uses",
+                "Conductors and Insulators"
+              ]
+            }
+          }
+        },
+        "Social Studies": {
+          "chapters": {
+            "The Earth and the Solar System": {
+              "topics": [
+                "Planets and Their Movements",
+                "Earth’s Rotation and Revolution"
+              ]
+            },
+            "Indian History": {
+              "topics": [
+                "Ancient Civilizations",
+                "Early Kingdoms of India"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "7th": {
+      "subjects": {
+        "Mathematics": {
+          "chapters": {
+            "Algebraic Expressions": {
+              "topics": [
+                "Types of Algebraic Expressions",
+                "Operations on Algebraic Expressions"
+              ]
+            },
+            "Geometry": {
+              "topics": [
+                "Lines and Angles",
+                "Triangles and Their Properties"
+              ]
+            }
+          }
+        },
+        "Science": {
+          "chapters": {
+            "Nutrition in Animals": {
+              "topics": [
+                "Digestive System in Humans",
+                "Process of Nutrition in Animals"
+              ]
+            },
+            "Heat and Temperature": {
+              "topics": [
+                "Measurement of Temperature",
+                "Effects of Heat"
+              ]
+            }
+          }
+        },
+        "Social Studies": {
+          "chapters": {
+            "Medieval History": {
+              "topics": [
+                "Delhi Sultanate",
+                "Mughal Empire"
+              ]
+            },
+            "Geography of India": {
+              "topics": [
+                "Physical Features of India",
+                "Climate and Natural Vegetation"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "8th": {
+      "subjects": {
+        "Mathematics": {
+          "chapters": {
+            "Linear Equations": {
+              "topics": [
+                "Solving Linear Equations",
+                "Graphical Representation of Linear Equations"
+              ]
+            },
+            "Mensuration": {
+              "topics": [
+                "Surface Areas and Volumes",
+                "Applications of Mensuration"
+              ]
+            }
+          }
+        },
+        "Science": {
+          "chapters": {
+            "Force and Pressure": {
+              "topics": [
+                "Types of Forces",
+                "Effects of Pressure"
+              ]
+            },
+            "Microorganisms": {
+              "topics": [
+                "Types of Microorganisms",
+                "Useful and Harmful Microorganisms"
+              ]
+            }
+          }
+        },
+        "Social Studies": {
+          "chapters": {
+            "Indian Independence Movement": {
+              "topics": [
+                "Revolt of 1857",
+                "Formation of Indian National Congress"
+              ]
+            },
+            "Resources and Development": {
+              "topics": [
+                "Types of Resources",
+                "Conservation of Resources"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

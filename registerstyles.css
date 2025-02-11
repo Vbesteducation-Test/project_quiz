@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #e0f7fa; /* Light cyan text for readability */
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: #263238; /* Dark background for header */
+    text-shadow: 0 0 8px #1976D2;
+}
+
+header h1 {
+    color: #1976D2; /* Blue heading */
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+/* Registration Container (Now Matches Quiz Selection Container) */
+.registration-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #263238; /* Dark background for form */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #BBDEFB; /* Light blue text */
+    margin-top: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Input Fields & Dropdowns */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #37474F;
+    color: #e0f7fa;
+    font-size: 1rem;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    outline: none;
+    border: 2px solid #1976D2;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #B0BEC5;
+}
+
+/* Align Form Elements */
+.form-group {
+    width: 100%;
+    text-align: left;
+}
+
+/* Hidden Fields */
+.hidden {
+    display: none;
+}
+
+/* Register Button */
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1976D2;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #1565C0;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .registration-container {
+        width: 90%;
+    }
+}
