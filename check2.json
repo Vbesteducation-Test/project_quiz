@@ -1,0 +1,1133 @@
+{
+ "classes": {
+    "1st Year": {
+        "subjects": {
+          "Mathematics": {
+            "chapters": {
+              "Functions": {
+                "Topics": [
+                  "Types of functions Definitions",
+                  "Real Valued functions Domain Range",
+                  "Polynomial functions",
+                  "Exponential and Logarithmic functions",
+                  "Even and Odd functions",
+                  "Periodic functions"
+                ]
+              },
+              "Matrices": {
+                "Topics": [
+                  "Types of matrices",
+                  "Scalar multiple of a matrix and multiplication of matrices",
+                  "Transpose of a matrix",
+                  "Determinants up to 3.4.7",
+                  "Adjoint and Inverse of a matrix",
+                  "Solution of simultaneous linear equations",
+                  "Cramers Rule",
+                  "Matrix Inversion Method",
+                  "Properties of Determinants",
+                  "Applications of Matrices in solving real life problems"
+                ]
+              },
+              "Complex Numbers": {
+                "Topics": [
+                  "Complex number as an ordered pair of real numbers fundamental operations",
+                  "Representation of complex numbers in the form a plus ib",
+                  "Modulus and amplitudes of complex numbers illustrations",
+                  "Geometrical and polar representation of a complex number in Argand plane",
+                  "Argand Diagram",
+                  "Roots of complex numbers",
+                  "Quadratic equations with complex roots"
+                ]
+              },
+              "De Moivres Theorem": {
+                "Topics": [
+                  "De Moivres theorem Integral and Rational indices",
+                  "nth roots of unity",
+                  "Geometrical Interpretations Illustrations",
+                  "Applications of De Moivres theorem in finding powers and roots of complex numbers"
+                ]
+              },
+              "Quadratic Expressions": {
+                "Topics": [
+                  "Quadratic expressions equations in one variable",
+                  "Sign of quadratic expressions",
+                  "Change in signs and Maximum and minimum values",
+                  "Quadratic inequations",
+                  "Nature of roots",
+                  "Graphical representation of quadratic expressions"
+                ]
+              },
+              "Theory of Equations": {
+                "Topics": [
+                  "Relation between the roots and coefficients in an equation",
+                  "Solving an equation when two or more of its roots are connected by certain relations",
+                  "Equations with real coefficients",
+                  "Occurrence of complex roots in conjugate pairs and its consequences",
+                  "Transformation of equations",
+                  "Reciprocal Equations",
+                  "Symmetric functions of roots"
+                ]
+              },
+              "Permutations and Combinations": {
+                "Topics": [
+                  "Fundamental Principle of counting",
+                  "Linear and circular permutations",
+                  "Permutations of n dissimilar things taken r at a time",
+                  "Permutations when repetitions are allowed",
+                  "Circular permutations",
+                  "Permutations with constraint repetitions",
+                  "Combinations definitions and certain theorems",
+                  "Applications of permutations and combinations in probability"
+                ]
+              },
+              "Binomial Theorem": {
+                "Topics": [
+                  "Binomial theorem for positive integral index",
+                  "Binomial theorem for rational Index",
+                  "Approximations using Binomial Theorem",
+                  "Middle term and Greatest term in binomial expansion",
+                  "Properties of binomial coefficients"
+                ]
+              },
+              "Partial Fractions": {
+                "Topics": [
+                  "Rational functions",
+                  "Partial fractions of fx/gx when gx contains non repeated linear factors",
+                  "Partial fractions of fx/gx when gx contains repeated and/or non repeated linear factors",
+                  "Partial fractions of fx/gx when gx contains irreducible factors",
+                  "Applications of partial fractions in integration"
+                ]
+              },
+              "Trigonometric Ratios up to Transformations": {
+                "Topics": [
+                  "Trigonometric ratios",
+                  "Variation of trigonometric functions",
+                  "Graphs and Periodicity",
+                  "Trigonometric ratios of Compound angles",
+                  "Trigonometric ratios of multiple and sub multiple angles",
+                  "Sum and Product transformations",
+                  "Inverse trigonometric functions",
+                  "General solutions of trigonometric equations",
+                  "Applications of trigonometric transformations in solving equations"
+                ]
+              }
+            }
+          },
+           "Chemistry": {
+              "chapters": {
+                "Classification of Elements and Periodicity in Properties": {
+                  "topics": [
+                    "Modern Periodic Law and Present Form of the Periodic Table",
+                    "Nomenclature of Elements with Atomic Number Greater than 100",
+                    "Electronic Configuration of Elements and the Periodic Table",
+                    "Electronic Configuration and Types of Elements s p d and f Blocks",
+                    "Trends in Physical Properties Atomic Radius Ionic Radius Ionization Enthalpy Electron Gain Enthalpy and Electronegativity",
+                    "Periodic Trends in Chemical Properties Periodicity of Valence or Oxidation States",
+                    "Anomalous Properties of Second Period Elements and Diagonal Relationship",
+                    "Periodic Trends in Chemical Reactivity"
+                  ]
+                },
+                "Chemical Bonding and Molecular Structure": {
+                  "topics": [
+                    "Kossel Lewis Approach to Chemical Bonding",
+                    "Octet Rule",
+                    "Covalent Bond Lewis Representation of Simple Molecules",
+                    "Formal Charges and Limitations of Octet Rule",
+                    "Ionic or Electrovalent Bond and Crystal Structure of Sodium Chloride",
+                    "Lattice Enthalpy and General Properties of Ionic Compounds",
+                    "Bond Parameters Bond Length Bond Angle Bond Enthalpy Bond Order and Resonance",
+                    "Polarity of Bonds and Dipole Moment",
+                    "Fajans Rules",
+                    "Valence Shell Electron Pair Repulsion VSEPR Theory",
+                    "Predicting Geometry of Simple Molecules",
+                    "Valence Bond Theory and Orbital Overlap Concept",
+                    "Directional Properties of Bonds and Strength of Sigma and Pi Bonds",
+                    "Hybridisation Involving s p and d Orbitals",
+                    "Shapes of Simple Covalent Molecules",
+                    "Coordinate Bond with Examples",
+                    "Molecular Orbital Theory and Formation of Molecular Orbitals",
+                    "Linear Combination of Atomic Orbitals LCAO and Conditions for Combination",
+                    "Energy Level Diagrams for Molecular Orbitals",
+                    "Bonding in Homo Nuclear Diatomic Molecules H2 He2 Li2 B2 C2 N2 O2",
+                    "Hydrogen Bonding Types and General Properties"
+                  ]
+                },
+                "Atomic Structure": {
+                  "topics": [
+                    "Developments Leading to Bohrs Model of Atom",
+                    "Wave Nature of Electromagnetic Radiation",
+                    "Particle Nature of Electromagnetic Radiation Plancks Quantum Theory",
+                    "Dual Behaviour of Matter",
+                    "Bohrs Model for Hydrogen Atom",
+                    "Explanation of Line Spectrum of Hydrogen",
+                    "Limitations of Bohrs Model",
+                    "Quantum Mechanical Considerations of Subatomic Particles",
+                    "Heisenbergs Uncertainty Principle",
+                    "Quantum Numbers",
+                    "Energies of Orbitals",
+                    "Filling of Orbitals in Atoms",
+                    "Aufbau Principle",
+                    "Paulis Exclusion Principle",
+                    "Hunds Rule of Maximum Multiplicity",
+                    "Electronic Configurations of Atoms",
+                    "Stability of Half Filled and Completely Filled Orbitals"
+                  ]
+                },
+                "Stoichiometry": {
+                   "topics": [
+                        "Importance of Chemistry and Basic Concepts",
+                        "Properties of Matter and Measurement Uncertainty",
+                        "Significant Figures and Dimensional Analysis",
+                        "Atomic and Molecular Masses",
+                        "Mole Concept and Molar Mass",
+                        "Concept of Equivalent Weight",
+                        "Percentage Composition of Compounds",
+                        "Empirical and Molecular Formulae",
+                        "Stoichiometry and Stoichiometric Calculations",
+                        "Redox Reactions Classical and Modern Concepts",
+                        "Oxidation Number Concept",
+                        "Types of Redox Reactions Combination Decomposition Displacement and Disproportionation",
+                        "Balancing of Redox Reactions Oxidation Number Method and Half Reaction Method"
+                      ]
+                    },
+                    "States of Matter Gases and Liquids": {
+                      "topics": [
+                        "Intermolecular Forces and Thermal Energy",
+                        "Intermolecular Forces vs Thermal Interactions",
+                        "The Gaseous State and Gas Laws",
+                        "Ideal Gas Equation",
+                        "Grahams Law of Diffusion",
+                        "Daltons Law of Partial Pressures",
+                        "Kinetic Molecular Theory of Gases",
+                        "Kinetic Gas Equation and Deduction of Gas Laws",
+                        "Behaviour of Real Gases and Deviation from Ideal Gas Behaviour",
+                        "Compressibility Factor vs Pressure Diagrams of Real Gases"
+                      ]
+                    },
+                    "Thermodynamics": {
+                      "topics": [
+                        "Thermodynamic Terms System and Surroundings",
+                        "Types of Systems and Surroundings",
+                        "State of the System",
+                        "Internal Energy as a State Function Work Heat and First Law of Thermodynamics",
+                        "Applications of the First Law Work and Enthalpy",
+                        "Extensive and Intensive Properties",
+                        "Measurement of Delta U and Delta H Calorimetry",
+                        "Standard Enthalpy Changes of Reactions",
+                        "Hesss Law of Constant Heat Summation",
+                        "Enthalpy of Combustion Atomization and Bond Enthalpy",
+                        "Enthalpy of Solution and Dilution",
+                        "Lattice Enthalpy",
+                        "Criteria for Spontaneity Enthalpy Entropy and Gibbs Free Energy",
+                        "Second Law of Thermodynamics",
+                        "Third Law of Thermodynamics"
+                      ]
+                    },
+                    "Chemical Equilibrium and AcidsBases": {
+                      "topics": [
+                        "Equilibrium in Physical Processes",
+                        "Equilibrium in Chemical Processes Dynamic Equilibrium",
+                        "Law of Chemical Equilibrium and Law of Mass Action",
+                        "Equilibrium Constant Kp and Kc in Homogeneous and Heterogeneous Systems",
+                        "Relationship between Kp and Kc",
+                        "Factors Affecting Equilibrium Le Chateliers Principle",
+                        "Applications of Le Chateliers Principle in Industrial Synthesis of Ammonia and Sulphur Trioxide",
+                        "Ionic Equilibrium in Solutions",
+                        "Concepts of Acids and Bases Arrhenius Bronsted Lowry and Lewis Theories",
+                        "Buffer Solutions and Preparation of Acidic Buffer",
+                        "Solubility Equilibrium of Sparingly Soluble Salts",
+                        "Solubility Product Constant and Common Ion Effect"
+                      ]
+                    },
+                    "Hydrogen and Its Compounds": {
+                      "topics": [
+                        "Position of Hydrogen in the Periodic Table",
+                        "Occurrence and Isotopes of Dihydrogen",
+                        "Hydrides Ionic Covalent and Nonstoichiometric",
+                        "Physical and Chemical Properties of Water",
+                        "Structure of Water and Ice",
+                        "Hard and Soft Water Causes and Removal of Hardness",
+                        "Heavy Water and Its Uses",
+                        "Hydrogen as a Fuel"
+                      ]
+                    },
+                    "s Block Elements Alkali and Alkaline Earth Metals": {
+                          "topics": [
+                            "Group 1 Elements Alkali Metals",
+                            "Electronic Configuration Atomic and Ionic Radii Ionization Enthalpy and Hydration Enthalpy",
+                            "Physical and Chemical Properties of Alkali Metals",
+                            "Uses of Alkali Metals",
+                            "General Characteristics of Compounds of Alkali Metals Oxides Halides and Salts of Oxoacids",
+                            "Anomalous Properties of Lithium and Its Diagonal Relationship with Magnesium",
+                            "Group 2 Elements Alkaline Earth Metals",
+                            "Electronic Configuration Ionization Enthalpy and Hydration Enthalpy",
+                            "Physical and Chemical Properties of Alkaline Earth Metals",
+                            "Uses of Alkaline Earth Metals",
+                            "General Characteristics of Compounds of Alkaline Earth Metals Oxides Hydroxides Halides and Salts of Oxoacids Carbonates Sulphates and Nitrates",
+                            "Anomalous Behavior of Beryllium and Its Diagonal Relationship with Aluminium"
+                          ]
+                        },
+                        "p Block Elements Group 13 Boron Family": {
+                          "topics": [
+                            "Electronic Configuration Atomic Radii Ionization Enthalpy and Electronegativity",
+                            "Physical and Chemical Properties of Boron Family",
+                            "Important Trends and Anomalous Properties of Boron"
+                          ]
+                        },
+                        "p Block Elements Group 14 Carbon Family": {
+                          "topics": [
+                            "Electronic Configuration Atomic Radii Ionization Enthalpy and Electronegativity",
+                            "Physical and Chemical Properties of Carbon Family",
+                            "Important Trends and Anomalous Properties of Carbon",
+                            "Allotropes of Carbon and Their Uses"
+                          ]
+                        },
+                        "Organic Chemistry Some Basic Principles Techniques and Hydrocarbons": {
+                          "topics": [
+                            "Tetravalency of Carbon and Shapes of Organic Compounds",
+                            "Structural Representations of Organic Compounds",
+                            "Classification and Nomenclature of Organic Compounds",
+                            "Isomerism in Organic Compounds",
+                            "Fundamental Concepts in Organic Reaction Mechanisms",
+                            "Fission of Covalent Bonds Nucleophiles and Electrophiles",
+                            "Electron Displacement Effects Inductive Effect Resonance Electromeric Effect and Hyperconjugation",
+                            "Types of Organic Reactions"
+                          ]
+                        },
+                        "Hydrocarbons": {
+                          "topics": [
+                            "Classification of Hydrocarbons Alkanes Alkenes Alkynes and Aromatic Hydrocarbons",
+                            "Alkanes Nomenclature Isomerism Preparation and Properties",
+                            "Controlled Oxidation Isomerization and Aromatization of Alkanes",
+                            "Alkenes Nomenclature Structure of Ethene Isomerism Preparation and Properties",
+                            "Addition Reactions of Alkenes Hydrogen Halogen Water Sulphuric Acid and Hydrogen Halides",
+                            "Oxidation Ozonolysis and Polymerization of Alkenes",
+                            "Alkynes Nomenclature Isomerism Structure of Acetylene Preparation and Properties",
+                            "Aromatic Hydrocarbons Nomenclature Structure of Benzene Resonance and Aromaticity",
+                            "Electrophilic Substitution Reactions in Benzene Nitration Sulphonation Halogenation Friedel Crafts Alkylation and Acylation",
+                            "Directive Influence of Functional Groups in Monosubstituted Benzene",
+                            "Carcinogenicity and Toxicity of Aromatic Compounds"
+                          ]
+                        }
+                      }
+                    },
+                              
+            
+              "Physics": {
+                  "chapters": {
+                    "Units and Measurements": {
+                      "topics": [
+                        "Introduction",
+                        "The International System of Units",
+                        "Measurement of Length",
+                        "Measurement of Large Distances",
+                        "Estimation of Very Small Distances Size of a Molecule",
+                        "Range of Lengths",
+                        "Measurement of Mass",
+                        "Range of Masses",
+                        "Measurement of Time",
+                        "Accuracy Precision of Instruments and Errors in Measurement",
+                        "Systematic Errors Random Errors Least Count Error",
+                        "Absolute Error Relative Error and Percentage Error",
+                        "Combination of Errors",
+                        "Significant Figures",
+                        "Rules for Arithmetic Operations with Significant Figures",
+                        "Rounding off the Uncertain Digits",
+                        "Rules for Determining the Uncertainty in the Results of Arithmetic Calculations",
+                        "Dimensions of Physical Quantities",
+                        "Dimensional Formulae and Dimensional Equations",
+                        "Dimensional Analysis and its Applications",
+                        "Checking the Dimensional Consistency of Equations",
+                        "Deducing Relation among the Physical Quantities"
+                      ]
+                    },
+                    "Motion in a Straight Line": {
+                      "topics": [
+                        "Introduction",
+                        "Position Path Length and Displacement",
+                        "Average Velocity and Average Speed",
+                        "Instantaneous Velocity and Speed",
+                        "Acceleration",
+                        "Kinematic Equations for Uniformly Accelerated Motion",
+                        "Relative Velocity"
+                      ]
+                    },
+                    "Motion in a Plane": {
+                      "topics": [
+                        "Introduction",
+                        "Scalars and Vectors",
+                        "Position and Displacement Vectors",
+                        "Equality of Vectors",
+                        "Multiplication of Vectors by Real Numbers",
+                        "Addition and Subtraction of Vectors Graphical Method",
+                        "Resolution of Vectors",
+                        "Vector Addition Analytical Method",
+                        "Motion in a Plane",
+                        "Position Vector and Displacement",
+                        "Velocity and Acceleration",
+                        "Motion in a Plane with Constant Acceleration",
+                        "Relative Velocity in Two Dimensions",
+                        "Projectile Motion",
+                        "Equation of Path of a Projectile",
+                        "Time of Maximum Height",
+                        "Maximum Height of a Projectile",
+                        "Horizontal Range of Projectile",
+                        "Uniform Circular Motion"
+                      ]
+                    },
+                    "Laws of Motion": {
+                      "topics": [
+                        "Introduction",
+                        "Conservation of Momentum",
+                        "Equilibrium of a Particle",
+                        "Common Forces in Mechanics",
+                        "Friction",
+                        "Circular Motion",
+                        "Motion of a Car on a Level Road",
+                        "Motion of a Car on a Banked Road",
+                        "Solving Problems in Mechanics"
+                      ]
+                    },
+                    "Work Energy and Power": {
+                      "topics": [
+                        "Introduction",
+                        "The Scalar Product",
+                        "Notions of Work and Kinetic Energy The Work Energy Theorem",
+                        "Work Done by a Variable Force",
+                        "The Concept of Potential Energy",
+                        "The Conservation of Mechanical Energy",
+                        "The Potential Energy of a Spring",
+                        "Various Forms of Energy The Law of Conservation of Energy",
+                        "Heat Chemical Energy Electrical Energy Nuclear Energy",
+                        "The Equivalence of Mass and Energy",
+                        "The Principle of Conservation of Energy",
+                        "Power",
+                        "Collisions Elastic and Inelastic Collisions",
+                        "Collisions in One Dimension and Two Dimensions",
+                        "Coefficient of Restitution and Its Determination"
+                      ]
+                    },
+                    "Systems of Particles and Rotational Motion": {
+                      "topics": [
+                        "Introduction",
+                        "What Kind of Motion Can a Rigid Body Have",
+                        "Centre of Mass",
+                        "Centre of Gravity",
+                        "Motion of Centre of Mass",
+                        "Linear Momentum of a System of Particles",
+                        "Vector Product of Two Vectors",
+                        "Angular Velocity and Its Relation with Linear Velocity",
+                        "Angular Acceleration",
+                        "Kinematics of Rotational Motion About a Fixed Axis",
+                        "Torque and Angular Momentum",
+                        "Moment of Force Torque",
+                        "Angular Momentum of Particle",
+                        "Torque and Angular Momentum for a System of Particles",
+                        "Conservation of Angular Momentum",
+                        "Equilibrium of a Rigid Body",
+                        "Principle of Moments",
+                        "Moment of Inertia",
+                        "Dynamics of Rotational Motion About a Fixed Axis",
+                        "Rolling Motion and Kinetic Energy of Rolling Motion"
+                      ]
+                    },
+                    "Oscillations": {
+                      "topics": [
+                        "Introduction",
+                        "Periodic and Oscillatory Motions",
+                        "Period and Frequency",
+                        "Displacement",
+                        "Simple Harmonic Motion SHM",
+                        "Simple Harmonic Motion and Uniform Circular Motion",
+                        "Velocity and Acceleration in Simple Harmonic Motion",
+                        "Force Law for Simple Harmonic Motion",
+                        "Energy in Simple Harmonic Motion",
+                        "Oscillations Due to a Spring",
+                        "The Simple Pendulum",
+                        "Damped Simple Harmonic Motion",
+                        "Forced Oscillations and Resonance"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "2nd Year": {
+                  "subjects": {
+                    "Mathematics": {
+                      "chapters": {
+                        "Hyperbolic Functions": {
+                          "Topics": [
+                            "Definition of Hyperbolic Functions",
+                            "Graphs of Hyperbolic Functions",
+                            "Addition formulae of Hyperbolic Functions",
+                            "Relations between hyperbolic and trigonometric functions",
+                            "Inverse Hyperbolic Functions",
+                            "Applications of Hyperbolic Functions in calculus"
+                          ]
+                        },
+                        "Properties of Triangles": {
+                          "Topics": [
+                            "Relation between sides and angles of a Triangle",
+                            "Sine Cosine and Tangent Rules",
+                            "Projection Rules",
+                            "Half angle formulae",
+                            "Area of a triangle",
+                            "Incircle and excircles of a Triangle",
+                            "Eulers line and Nine point circle",
+                            "Applications of properties of triangles in coordinate geometry"
+                          ]
+                        },
+                        "Vector Algebra Addition of Vectors": {
+                          "Topics": [
+                            "Vectors as a triad of real numbers",
+                            "Basic concepts of vectors",
+                            "Classification Types of vectors",
+                            "Sum Addition of vectors",
+                            "Scalar multiplication of a vector",
+                            "Angle between two non zero vectors",
+                            "Linear combination of vectors",
+                            "Component of a vector in Three Dimensions",
+                            "Vector equations of line and plane",
+                            "Position vector and direction cosines",
+                            "Collinearity and coplanarity of vectors"
+                          ]
+                        },
+                        "Vector Algebra Product of Vectors": {
+                          "Topics": [
+                            "Scalar dot product of two vectors",
+                            "Geometrical interpretation of dot product",
+                            "Orthogonal projections",
+                            "Properties of dot product",
+                            "Expression of scalar dot product",
+                            "Angle between two vectors",
+                            "Geometrical vector methods",
+                            "Vector equations of a plane in normal form",
+                            "Angle between two planes",
+                            "Vector cross product of two vectors",
+                            "Properties and applications of cross product",
+                            "Scalar triple product and its applications"
+                          ]
+                        },
+                        "Probability": {
+                          "Topics": [
+                            "Measures of Dispersion Range Mean deviation Variance and standard deviation of ungrouped grouped data Coefficient of Variation",
+                            "Analysis of frequency distributions with equal means but different variances",
+                            "Probability Random experiments and events Classical definition of probability",
+                            "Axiomatic approach and addition theorem of probability",
+                            "Independent and dependent events Conditional probability Multiplication theorem Bayes Theorem",
+                            "Random Variables and Probability Distributions Random Variables Theoretical discrete distributions Binomial Distribution Poisson Distribution"
+                          ]
+                        },
+                        "Circles": {
+                          "Topics": [
+                            "Equation of a circle Standard and general forms",
+                            "Center and radius of a circle",
+                            "Position of a point with respect to a circle",
+                            "Power of a point",
+                            "Tangents to a circle Equation and condition for tangency",
+                            "Length of a tangent from an external point",
+                            "Chord properties Equation of a chord chord with a given midpoint focal chord",
+                            "Polar concepts Chord of contact equation of polar of a point",
+                            "Relative positions of two circles Intersection common tangents orthogonality"
+                          ]
+                        },
+                        "System of Circles": {
+                          "Topics": [
+                            "Angle between two intersecting circles",
+                            "Radical axis Equation and properties",
+                            "Radical center of three circles",
+                            "Coaxial system of circles"
+                          ]
+                        },
+                        "Parabola": {
+                          "Topics": [
+                            "Definition standard equation focus directrix eccentricity",
+                            "Latus rectum and its properties",
+                            "Parametric equations and their applications",
+                            "Tangents and normals Equation and condition for tangency",
+                            "Chords Equation of a chord focal chord double ordinate",
+                            "Intersection of a line and a parabola"
+                          ]
+                        },
+                        "Ellipse": {
+                          "Topics": [
+                            "Definition standard equation foci directrices eccentricity",
+                            "Major axis minor axis and center",
+                            "Latus rectum and its properties",
+                            "Parametric equations and applications",
+                            "Tangents and normals Equation and condition for tangency",
+                            "Chords Equation of a chord focal chord",
+                            "Auxiliary circle and related properties"
+                          ]
+                        },
+                        "Hyperbola": {
+                          "Topics": [
+                            "Definition standard equation foci directrices eccentricity",
+                            "Transverse and conjugate axes center",
+                            "Latus rectum and its properties",
+                            "Parametric equations and applications",
+                            "Tangents and normals Equation and condition for tangency",
+                            "Chords Equation of a chord focal chord",
+                            "Asymptotes of a hyperbola",
+                            "Rectangular hyperbola and its properties"
+                          ]
+                        },
+                        "Limits": {
+                          "Topics": [
+                            "Intervals and neighbourhoods",
+                            "Limits of functions",
+                            "Standard limits",
+                            "LHopitals Rule",
+                            "Indeterminate forms"
+                          ]
+                        },
+                        "Differentiation": {
+                          "Topics": [
+                            "Derivative of a function",
+                            "Elementary properties of derivatives",
+                            "Differentiation of algebraic trigonometric exponential logarithmic inverse trigonometric and hyperbolic functions",
+                            "Methods of differentiation First principles Product rule Quotient rule Chain rule Logarithmic differentiation Implicit differentiation Parametric differentiation"
+                          ]
+                        },
+                        "Applications of Derivatives": {
+                          "Topics": [
+                            "Errors and approximations",
+                            "Geometrical interpretation of the derivative",
+                            "Equations of tangents and normals to a curve",
+                            "Angle between two curves and condition for orthogonality",
+                            "Maxima and Minima First and second derivative tests",
+                            "Real life applications of maxima and minima"
+                          ]
+                        },
+                        "Integration": {
+                          "Topics": [
+                            "Integration as the inverse process of differentiation",
+                            "Standard forms and properties",
+                            "Methods of integration Substitution Integration by parts Partial fractions Reduction formulae",
+                            "Integration of algebraic exponential logarithmic trigonometric and inverse trigonometric functions"
+                          ]
+                        },
+                        "Definite Integrals": {
+                          "Topics": [
+                            "Definite integral as a limit of sum",
+                            "Interpretation as area under a curve",
+                            "Fundamental theorem of integral calculus",
+                            "Properties of definite integrals",
+                            "Reduction formulae",
+                            "Applications to areas under curves"
+                          ]
+                        },
+                        "Differential Equations": {
+                          "Topics": [
+                            "Formation of a differential equation",
+                            "Degree and order of an ordinary differential equation",
+                            "Methods of solving differential equations Variables separable Homogeneous Non homogeneous Linear differential equations",
+                            "Applications of differential equations"
+                          ]
+                        }
+                      }
+                    },
+                   "Chemistry": {
+                      "chapters": {
+                        "Solid State": {
+                          "topics": [
+                            "General Characteristics of Solid State",
+                            "Amorphous and Crystalline Solids",
+                            "Classification of Crystalline Solids Based on Binding Forces",
+                            "X-ray Crystallography and Structure of Solids",
+                            "Crystal Lattices and Unit Cells",
+                            "Close Packing in One, Two, and Three Dimensions",
+                            "Packing Efficiency in Different Lattice Structures",
+                            "Calculations Involving Unit Cell Dimensions and Density",
+                            "Imperfections in Solids: Types of Point Defects",
+                            "Electrical and Magnetic Properties of Solids",
+                            "Band Theory of Metals, Conductors, Semiconductors, and Insulators"
+                          ]
+                        },
+                        "Solutions": {
+                          "topics": [
+                            "Types of Solutions",
+                            "Expressing Concentration: Mass Percentage, Volume Percentage, Mass by Volume Percentage, Parts Per Million, Mole Fraction, Molarity, and Molality",
+                            "Solubility of a Solid in a Liquid",
+                            "Solubility of a Gas in a Liquid - Henrys Law",
+                            "Vapour Pressure of Liquid Solutions",
+                            "Raoult's Law and Its Application as a Special Case of Henry’s Law",
+                            "Ideal and Non-Ideal Solutions",
+                            "Colligative Properties and Determination of Molar Mass",
+                            "Relative Lowering of Vapour Pressure, Elevation of Boiling Point, Depression of Freezing Point, Osmosis and Osmotic Pressure",
+                            "Reverse Osmosis and Water Purification",
+                            "Abnormal Molar Masses Vant Hoff Factor"
+                          ]
+                        },
+                        "Electrochemistry and Chemical Kinetics": {
+                          "topics": [
+                            "Electrochemical Cells and Galvanic Cells",
+                            "Nernst Equation and Equilibrium Constant from Nernst Equation",
+                            "Electrochemical Cell and Gibbs Energy of the Cell Reaction",
+                            "Conductance of Electrolytic Solutions",
+                            "Measurement of Conductivity and Molar Conductivity of Ionic Solutions",
+                            "Variation of Conductivity with Concentration for Strong and Weak Electrolytes",
+                            "Applications of Kohlrauschs Law",
+                            "Electrolytic Cells and Faradays Laws of Electrolysis",
+                            "Products of Electrolysis",
+                            "Batteries: Primary and Secondary Batteries",
+                            "Fuel Cells",
+                            "Corrosion of Metals and Hydrogen Economy",
+                            "Chemical Kinetics: Rate of a Chemical Reaction",
+                            "Factors Influencing the Rate of a Reaction",
+                            "Rate Expression and Rate Constant",
+                            "Order and Molecularity of Reactions",
+                            "Integrated Rate Equations for Zero and First Order Reactions",
+                            "Half-Life of Reactions",
+                            "Pseudo First Order Reactions",
+                            "Temperature Dependence of Reaction Rate",
+                            "Effect of Catalyst on Reaction Rate",
+                            "Collision Theory of Chemical Reaction Rates"
+                          ]
+                        },
+                        "Surface Chemistry": {
+                          "topics": [
+                            "Distinction Between Adsorption and Absorption",
+                            "Mechanism and Types of Adsorption",
+                            "Characteristics of Physisorption and Chemisorption",
+                            "Adsorption Isotherms and Adsorption from Solution Phase",
+                            "Applications of Adsorption",
+                            "Catalysis: Homogeneous and Heterogeneous Catalysis",
+                            "Adsorption Theory of Heterogeneous Catalysis",
+                            "Activity and Selectivity of Solid Catalysts",
+                            "Shape-Selective Catalysis by Zeolites",
+                            "Enzyme Catalysis and Industrial Applications",
+                            "Colloids: Classification Based on Physical State, Interaction, and Particle Size",
+                            "Cleansing Action of Soaps",
+                            "Preparation and Purification of Colloidal Solutions",
+                            "Properties of Colloidal Solutions: Tyndall Effect, Brownian Movement, Charge, and Electrophoresis",
+                            "Coagulation and Protection of Colloids",
+                            "Applications of Colloids",
+                            "Emulsions: Types and Properties"
+                          ]
+                        },
+                        "General Principles of Metallurgy": {
+                          "topics": [
+                            "Occurrence of Metals",
+                            "Concentration of Ores: Levigation, Magnetic Separation, Froth Floatation, and Leaching",
+                            "Extraction of Crude Metal from Concentrated Ore",
+                            "Conversion to Oxide and Reduction of Oxide to Metal",
+                            "Thermodynamic Principles of Metallurgy and Ellingham Diagram",
+                            "Extraction of Iron, Copper, and Zinc",
+                            "Electrochemical Principles of Metallurgy",
+                            "Oxidation and Reduction in Metallurgy",
+                            "Refining of Crude Metal: Distillation, Liquation, Poling, Electrolysis, Zone Refining, and Vapour Phase Refining",
+                            "Uses of Aluminium, Copper, Zinc, and Iron"
+                          ]
+                        },
+                       "Group 15 Elements (Nitrogen Family)": {
+                          "topics": [
+                  "Introduction and Occurrence",
+                  "Electronic Configuration, Atomic and Ionic Radii, Ionisation Enthalpy, and Electronegativity",
+                  "Preparation, Properties, and Uses of Dinitrogen",
+                  "Compounds of Nitrogen: Ammonia, Oxides of Nitrogen, and Nitric Acid",
+                  "Allotropic Forms of Phosphorus",
+                  "Phosphine: Preparation, Properties, and Uses",
+                  "Phosphorus Halides: Preparation, Properties, and Uses",
+                  "Oxoacids of Phosphorus: Structures and Properties"
+                ]
+              },
+              "Group 16 Elements (Oxygen Family)": {
+                "topics": [
+                  "Introduction and Occurrence",
+                  "Electronic Configuration, Atomic and Ionic Radii, Ionisation Enthalpy, Electron Gain Enthalpy, and Electronegativity",
+                  "Preparation, Properties, and Uses of Dioxygen",
+                  "Ozone: Preparation, Structure, Properties, and Uses",
+                  "Allotropic Forms of Sulphur",
+                  "Sulphur Dioxide: Preparation, Properties, and Uses",
+                  "Oxoacids of Sulphur",
+                  "Manufacture, Properties, and Uses of Sulphuric Acid"
+                ]
+              },
+              "Group 17 Elements (Halogen Family)": {
+                "topics": [
+                  "Introduction and Occurrence",
+                  "Electronic Configuration, Atomic and Ionic Radii, Ionisation Enthalpy, and Electron Gain Enthalpy",
+                  "Preparation, Properties, and Uses of Chlorine",
+                  "Hydrogen Chloride: Preparation, Properties, and Uses",
+                  "Oxoacids of Halogens",
+                  "Interhalogen Compounds: Structures and Reactivity"
+                ]
+              },
+              "Group 18 Elements (Noble Gases)": {
+                "topics": [
+                  "Introduction and Occurrence",
+                  "Electronic Configuration, Ionisation Enthalpy, Atomic Radii, and Electron Gain Enthalpy",
+                  "Xenon-Fluorine Compounds (XeF2, XeF4, XeF6): Preparation, Hydrolysis, and Structures",
+                  "Xenon-Oxygen Compounds (XeO3 and XeOF4): Formation, Structures, and Uses"
+                ]
+              },
+              "d-Block Elements": {
+                "topics": [
+                  "Position and Electronic Configuration",
+                  "General Properties: Atomic and Ionic Sizes, Ionisation Enthalpy, Oxidation States, and Magnetic Properties",
+                  "Trends in Standard Electrode Potentials and Chemical Reactivity",
+                  "Formation of Coloured Ions and Complex Compounds",
+                  "Catalytic Properties and Formation of Interstitial Compounds",
+                  "Alloy Formation and Uses of Transition Metals",
+                  "Some Important Compounds of Transition Elements"
+                ]
+              },
+              "f-Block Elements (Inner Transition Elements)": {
+                "topics": [
+                  "Introduction and Position in the Periodic Table",
+                  "Electronic Configuration and General Properties",
+                  "Actinoids: Properties and Applications",
+                  "Comparison Between Lanthanoids and Actinoids",
+                  "Applications of f-Block Elements"
+                ]
+              },
+              "Coordination Compounds": {
+                "topics": [
+                  "Werners Theory of Coordination Compounds",
+                  "Nomenclature of Coordination Compounds (IUPAC Rules)",
+                  "Isomerism in Coordination Compounds: Geometrical, Optical, and Structural Isomerism",
+                  "Bonding in Coordination Compounds: Valence Bond Theory and Crystal Field Theory",
+                  "Colour and Stability of Coordination Compounds",
+                  "Bonding in Metal Carbonyls",
+                  "Applications of Coordination Compounds"
+                ]
+              },
+              "Polymers": {
+                "topics": [
+                  "Classification of Polymers: Based on Source, Structure, Mode of Polymerization, Molecular Forces, and Growth Polymerization",
+                  "Types of Polymerization Reactions: Addition Polymerization (Chain Growth Polymerization), Ionic Polymerization, and Free Radical Mechanism",
+                  "Preparation of Addition Polymers: Polythene, Teflon, and Polyacrylonitrile",
+                  "Condensation Polymerization (Step Growth Polymerization)",
+                  "Polyamides: Preparation of Nylon 6,6 and Nylon 6",
+                  "Polyesters: Preparation of Terylene",
+                  "Phenol-Formaldehyde Polymers: Bakelite and Melamine-Formaldehyde Polymer",
+                  "Copolymerization",
+                  "Rubber: Natural Rubber and Vulcanization of Rubber",
+                  "Synthetic Rubbers: Preparation of Neoprene and Buna-N",
+                  "Molecular Mass of Polymers: Number Average and Weight Average Molecular Masses, Polydispersity Index (PDI)",
+                  "Biodegradable Polymers: PHBV and Nylon 2-Nylon 6",
+                  "Polymers of Commercial Importance: Polypropene, Polystyrene, Polyvinyl Chloride (PVC), Urea-Formaldehyde Resin, Glyptal, and Bakelite - Monomers, Structures, and Uses"
+                ]
+              },
+              "Biomolecules": {
+                "topics": [
+                  "Carbohydrates: Classification of Carbohydrates",
+                  "Monosaccharides: Preparation of Glucose from Sucrose and Starch",
+                  "Properties and Structure of Glucose - D, L and (+), (-) Configurations",
+                  "Structure of Fructose",
+                  "Disaccharides: Sucrose, Lactose, and Maltose",
+                  "Polysaccharides: Starch, Cellulose, and Glycogen",
+                  "Importance of Carbohydrates",
+                  "Amino Acids: Classification and Structures of Natural Amino Acids, D and L Forms, Zwitterions",
+                  "Proteins: Structure and Classification - Fibrous and Globular Proteins",
+                  "Primary, Secondary, Tertiary, and Quaternary Structures of Proteins",
+                  "Denaturation of Proteins",
+                  "Nucleic Acids: Chemical Composition and Structures of Nucleic Acids",
+                  "DNA Fingerprinting",
+                  "Biological Functions of Nucleic Acids",
+                  "Enzymes: Mechanism of Enzyme Action",
+                  "Vitamins and Hormones"
+                ]
+              },
+              "Chemistry in Everyday Life": {
+                "topics": [
+                  "Drugs and Their Classification Based on Pharmacological Effect, Drug Action, Chemical Structure, and Molecular Targets",
+                  "Drug-Target Interaction: Enzymes as Drug Targets",
+                  "Catalytic Action of Enzymes and Drug-Enzyme Interaction",
+                  "Receptors as Drug Targets",
+                  "Therapeutic Action of Different Classes of Drugs: Antacids, Antihistamines, Tranquilizers, Non-Narcotic and Narcotic Analgesics",
+                  "Antimicrobials: Antibiotics, Antiseptics, Disinfectants, Antifertility Drugs",
+                  "Chemicals in Food: Artificial Sweetening Agents, Food Preservatives, Antioxidants",
+                  "Cleansing Agents: Soaps and Synthetic Detergents"
+                ]
+              },
+              "Haloalkanes and Haloarenes": {
+                "topics": [
+                  "Classification and Nomenclature of Haloalkanes and Haloarenes",
+                  "Nature of C-X Bond",
+                  "Methods of Preparation of Alkyl Halides and Aryl Halides: From Alcohols, Hydrocarbons, and Alkenes",
+                  "Preparation by Free Radical Halogenation, Electrophilic Substitution, Replacement of Diazonium Group (Sandmeyer Reaction), and Halogen Exchange (Finkelstein Reaction)",
+                  "Physical Properties: Melting and Boiling Points, Density, and Solubility",
+                  "Chemical Reactions of Haloalkanes: Nucleophilic Substitution Reactions (SN2 and SN1 Mechanisms)",
+                  "Stereochemical Aspects of Nucleophilic Substitution Reactions: Optical Activity",
+                  "Elimination Reactions",
+                  "Reactions with Metals",
+                  "Chemical Reactions of Haloarenes: Nucleophilic Substitution, Electrophilic Substitution, and Reactions with Metals",
+                  "Polyhalogen Compounds"
+                ]
+              },
+                  "Organic Compounds Containing C H and O": {
+                  "topics": [
+                    "Alcohols Phenols and Ethers Classification",
+                    "Nomenclature of Alcohols Phenols and Ethers",
+                    "Structures of Hydroxy and Ether Functional Groups",
+                    "Methods of Preparation of Alcohols From Alkenes and Carbonyl Compounds",
+                    "Methods of Preparation of Phenols From Haloarenes Benzene Sulphonic Acid Diazonium Salts and Cumene",
+                    "Physical Properties of Alcohols and Phenols",
+                    "Chemical Reactions of Alcohols and Phenols Reactions Involving Cleavage of OH Bond and CO Bond",
+                    "Electrophilic Aromatic Substitution Reactions of Phenols Kolbes Reaction Reimer Tiemann Reaction Reaction with Zinc Dust Oxidation",
+                    "Methods of Preparation of Ethers Dehydration of Alcohols and Williamson Synthesis",
+                    "Physical Properties of Ethers",
+                    "Chemical Reactions of Ethers Cleavage of CO Bond and Electrophilic Substitution of Aromatic Ethers",
+                    "Commercially Important Alcohols Methanol and Ethanol Uses"
+                  ]
+                },
+                "Aldehydes and Ketones": {
+                  "topics": [
+                    "Nomenclature and Structure of Carbonyl Group",
+                    "Preparation of Aldehydes and Ketones Oxidation and Dehydrogenation of Alcohols From Acyl Chlorides Nitriles Esters and Hydrocarbons",
+                    "Physical Properties of Aldehydes and Ketones",
+                    "Chemical Reactions of Aldehydes and Ketones Nucleophilic Addition Reduction Oxidation Reactions Due to Alpha Hydrogen",
+                    "Cannizzaro Reaction",
+                    "Electrophilic Substitution Reactions of Aldehydes and Ketones",
+                    "Uses of Aldehydes and Ketones"
+                  ]
+                },
+                "Carboxylic Acids": {
+                  "topics": [
+                    "Nomenclature and Structure of Carboxyl Group",
+                    "Methods of Preparation of Carboxylic Acids From Primary Alcohols Aldehydes Alkyl Benzenes Nitriles Amides Grignard Reagents Acyl Halides Anhydrides and Esters",
+                    "Physical Properties of Carboxylic Acids",
+                    "Chemical Reactions of Carboxylic Acids Reactions Involving Cleavage of OH Bond and COH Bond",
+                    "Reactions of Carboxylic Acids Formation of Anhydride Reaction with PCl5 PCl3 SOCl2 Esterification Reaction with Ammonia",
+                    "Reactions Involving the COOH Group Reduction Decarboxylation",
+                    "Substitution Reactions in the Hydrocarbon Part Halogenation and Ring Substitution",
+                    "Uses of Carboxylic Acids"
+                  ]
+                },
+                "Organic Compounds Containing Nitrogen": {
+                  "topics": [
+                    "Structure and Classification of Amines",
+                    "Nomenclature of Amines",
+                    "Methods of Preparation of Amines Reduction of Nitro Compounds Ammonolysis of Alkyl Halides Reduction of Nitriles and Amides Gabriel Phthalimide Synthesis Hoffmann Bromamide Degradation Reaction",
+                    "Physical Properties of Amines",
+                    "Chemical Reactions of Amines Basic Character Alkylation Acylation Carbylamine Reaction Reaction with Nitrous Acid and Aryl Sulphonyl Chloride",
+                    "Electrophilic Substitution Reactions of Aromatic Amines Bromination Nitration and Sulphonation",
+                    "Uses of Amines"
+                  ]
+                },
+                "Diazonium Salts": {
+                  "topics": [
+                    "Methods of Preparation of Diazonium Salts",
+                    "Physical Properties of Diazonium Salts",
+                    "Chemical Reactions of Diazonium Salts",
+                    "Importance of Diazonium Salts in the Synthesis of Aromatic Compounds"
+                  ]
+                },
+                "Cyanides and Isocyanides": {
+                  "topics": [
+                    "Structure and Nomenclature of Cyanides and Isocyanides",
+                    "Methods of Preparation of Cyanides and Isocyanides",
+                    "Physical Properties of Cyanides and Isocyanides",
+                    "Chemical Reactions of Cyanides and Isocyanides"
+                  ]
+                 }
+                }
+              },
+              "Physics": {
+                  "chapters": {
+                    "Wave Optics": {
+                      "topics": [
+                        "Introduction",
+                        "Huygens Principle",
+                        "Refraction and Reflection of Plane Waves using Huygens Principle",
+                        "Coherent and Incoherent Addition of Waves",
+                        "Interference of Light Waves and Youngs Experiment",
+                        "Diffraction The Single Slit",
+                        "Resolving Power of Optical Instruments",
+                        "The Validity of Ray Optics",
+                        "Polarization"
+                      ]
+                    },
+                    "Electric Charges and Fields": {
+                      "topics": [
+                        "Introduction",
+                        "Electric Charges",
+                        "Conductors and Insulators",
+                        "Charging by Induction",
+                        "Basic Properties of Electric Charge",
+                        "Coulombs Law",
+                        "Forces between Multiple Charges",
+                        "Electric Field and Field Lines",
+                        "Electric Flux",
+                        "Electric Dipole",
+                        "Dipole in a Uniform External Field",
+                        "Continuous Charge Distribution",
+                        "Gausss Law and Its Applications",
+                        "Field Due to an Infinitely Long Straight Uniformly Charged Wire",
+                        "Field Due to a Uniformly Charged Infinite Plane Sheet",
+                        "Field Due to a Uniformly Charged Thin Spherical Shell"
+                      ]
+                    },
+                    "Electrostatic Potential and Capacitance": {
+                      "topics": [
+                        "Introduction",
+                        "Electrostatic Potential",
+                        "Potential Due to a Point Charge Dipole and System of Charges",
+                        "Equipotential Surfaces",
+                        "Potential Energy of a System of Charges",
+                        "Potential Energy in an External Field",
+                        "Electrostatics of Conductors",
+                        "Dielectrics and Polarisation",
+                        "Capacitors and Capacitance",
+                        "The Parallel Plate Capacitor",
+                        "Effect of Dielectric on Capacitance",
+                        "Combination of Capacitors",
+                        "Energy Stored in a Capacitor",
+                        "Van de Graaff Generator"
+                      ]
+                    },
+                    "Current Electricity": {
+                      "topics": [
+                        "Introduction",
+                        "Electric Current",
+                        "Electric Currents in Conductors",
+                        "Ohms Law",
+                        "Drift of Electrons and Origin of Resistivity",
+                        "Limitations of Ohms Law",
+                        "Resistivity of Various Materials",
+                        "Temperature Dependence of Resistivity",
+                        "Electrical Energy and Power",
+                        "Combination of Resistors Series and Parallel",
+                        "Cells EMF and Internal Resistance",
+                        "Cells in Series and Parallel",
+                        "Kirchhoffs Rules",
+                        "Wheatstone Bridge",
+                        "Meter Bridge",
+                        "Potentiometer"
+                      ]
+                    },
+                    "Moving Charges and Magnetism": {
+                      "topics": [
+                        "Introduction",
+                        "Magnetic Force",
+                        "Motion in a Magnetic Field",
+                        "Motion in Combined Electric and Magnetic Fields",
+                        "Magnetic Field Due to a Current Element Biot Savart Law",
+                        "Magnetic Field on the Axis of a Circular Current Loop",
+                        "Amperes Circuital Law",
+                        "The Solenoid and the Toroid",
+                        "Force between Two Parallel Currents The Ampere",
+                        "Torque on Current Loop",
+                        "Magnetic Dipole",
+                        "The Moving Coil Galvanometer"
+                      ]
+                    },
+                    "Magnetism and Matter": {
+                      "topics": [
+                        "Introduction",
+                        "The Bar Magnet and Its Field Lines",
+                        "Bar Magnet as an Equivalent Solenoid",
+                        "Dipole in a Uniform Magnetic Field",
+                        "Magnetism and Gausss Law",
+                        "The Earths Magnetism",
+                        "Magnetisation and Magnetic Intensity",
+                        "Magnetic Properties of Materials",
+                        "Permanent Magnets and Electromagnets"
+                      ]
+                    },
+                    "Electromagnetic Induction": {
+                          "topics": [
+                            "Introduction",
+                            "The Experiments of Faraday and Henry",
+                            "Magnetic Flux",
+                            "Faradays Law of Induction",
+                            "Lenzs Law and Conservation of Energy",
+                            "Motional Electromotive Force",
+                            "Energy Consideration A Quantitative Study",
+                            "Eddy Currents",
+                            "Inductance",
+                            "AC Generator"
+                          ]
+                        },
+                        "Alternating Current": {
+                          "topics": [
+                            "Introduction",
+                            "AC Voltage Applied to a Resistor Inductor and Capacitor",
+                            "Representation of AC Current and Voltage by Phasors",
+                            "AC Voltage Applied to a Series LCR Circuit",
+                            "Power in AC Circuit The Power Factor",
+                            "LC Oscillations",
+                            "Transformers"
+                          ]
+                        },
+                        "Electromagnetic Waves": {
+                          "topics": [
+                            "Introduction",
+                            "Displacement Current",
+                            "Electromagnetic Waves",
+                            "Electromagnetic Spectrum"
+                          ]
+                        },
+                        "Dual Nature of Radiation and Matter": {
+                          "topics": [
+                            "Introduction",
+                            "Electron Emission",
+                            "Photoelectric Effect and Wave Theory of Light",
+                            "Einsteins Photoelectric Equation",
+                            "Energy Quantum of Radiation",
+                            "Wave Nature of Matter",
+                            "Davisson and Germer Experiment"
+                          ]
+                        },
+                        "Atoms": {
+                          "topics": [
+                            "Introduction",
+                            "Alpha Particle Scattering and Rutherfords Nuclear Model of Atom",
+                            "Atomic Spectra",
+                            "Bohr Model of the Hydrogen Atom",
+                            "De Broglies Explanation of Bohrs Quantisation"
+                          ]
+                        },
+                        "Nuclei": {
+                          "topics": [
+                            "Introduction",
+                            "Atomic Masses and Composition of Nucleus",
+                            "Size of the Nucleus",
+                            "Mass Energy and Nuclear Binding Energy",
+                            "Nuclear Force",
+                            "Radioactivity",
+                            "Nuclear Energy"
+                          ]
+                        },
+                        "Semiconductor Electronics": {
+                          "topics": [
+                            "Introduction",
+                            "Classification of Materials Metals Semiconductors and Insulators",
+                            "Intrinsic and Extrinsic Semiconductors",
+                            "pn Junction and Semiconductor Diode",
+                            "Application of Junction Diode as a Rectifier",
+                            "Special Purpose pn Junction Diodes",
+                            "Optoelectronic Junction Devices",
+                            "Transistor Structure and Action",
+                            "Transistor as an Amplifier and Oscillator",
+                            "Digital Electronics and Logic Gates",
+                            "Integrated Circuits"
+                          ]
+                        },
+                        "Communication Systems": {
+                          "topics": [
+                            "Introduction",
+                            "Elements of a Communication System",
+                            "Basic Terminology Used in Communication Systems",
+                            "Bandwidth of Signals and Transmission Medium",
+                            "Propagation of Electromagnetic Waves",
+                            "Modulation and Its Necessity",
+                            "Amplitude Modulation",
+                            "Detection of Amplitude Modulated Wave"
+                          ]
+                        }
+                      }
+                    }
+                    }
+                }
+            }
+        }
+    
+    
+                
+              
+                    
+             
